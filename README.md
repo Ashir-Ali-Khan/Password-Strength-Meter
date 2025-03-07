@@ -89,7 +89,7 @@ setup_database():
 
 Sets up the SQLite database and creates a users table if it doesn’t exist.
 
-hash_password(password):
+bcrypt_password(password):
 
 Hashes the password using bcrypt.
 
